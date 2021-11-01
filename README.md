@@ -27,7 +27,7 @@ Crew member    | Rol
 Álvaro Javier Hernández Rueda | Product Owner
 Wilson Peña | Scrum Master
 Wilson Peña | Scrum Developer
-Jairo Moreno | Scrum Developer
-León Ceballos | Scrum Developer
+Mauricio Bonilla | Scrum Developer
+Johnny Becerra | Scrum Developer
 Federico Chaves | Scrum Developer
-Guillermo Vásquez | Scrum Developer
+Olga | Scrum Developer
