@@ -10,7 +10,7 @@ Considering negative aspects mentioned above, is required a system to allow cont
 The software that will be developed will facilitate registration and avoid parking delays. It will be resulting in customer service improvement and better control by the owner of the parking lot, allowing him to make business decisions based on the information collected. 
 
 ## 3.	General objective:
-It is necessary to systematize AutoParking user’s registration inside the parking lot, in order to automate control processes, giving value to the business and its customers.
+Desarrollar una aplicación web para el registro automático de solicitudes de compra de productos de comidas rápidas .
 
 ## 4.	Specific objectives:
 AutoParking offers the ideal solution for managing your business:
