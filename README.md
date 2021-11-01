@@ -30,4 +30,4 @@ Wilson Peña | Scrum Developer
 Mauricio Bonilla | Scrum Developer
 Johnny Becerra | Scrum Developer
 Federico Chaves | Scrum Developer
-Olga | Scrum Developer
+Olga Rojas | Scrum Developer
