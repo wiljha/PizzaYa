@@ -29,3 +29,11 @@ Mauricio Bonilla | Scrum Developer
 Johnny Becerra | Scrum Developer
 Federico Chaves | Scrum Developer
 Olga Rojas | Scrum Developer
+
+## 6.	prioritized Backlog:
+1.	Como cliente de la pizzería quiero ver los productos disponibles para poder hacer la orden.
+2.	Como administrador de la pizzería yo quiero tener un sistema que permita el registro de pedidos para tener un histórico de ventas
+3.	Como cliente de la pizzería yo quiero tener una pasarela de pagos en donde pueda adquirir los productos
+4.	Como administrador de la pizzería quiero tener un registro de los productos que se venden más.
+5.	Como administrador de la pizzería quiero tener un sistema de autenticación para poder identificar los roles de los usuarios.
+6.	Como cliente quiero tener una factura que me permita verificar mi pedido.
