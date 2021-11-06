@@ -42,5 +42,5 @@ Olga Rojas | Scrum Developer
 ## 7.	Classes diagram:
 [Class Diagram](https://lucid.app/lucidchart/19f73c5b-06b5-4052-b467-df27c3368df6/edit?page=0_0&invitationId=inv_fdd4cb63-45b4-4d3f-ab99-e2284976007d#)
 
-![PizzaYa](https://drive.google.com/file/d/1oyQeXTAeClYaeeWRiDqY-WSIoFHWeMIy/view?usp=sharing)
+![PizzaYa](https://github.com/wiljha/PizzaYa/blob/main/Classes.GIF)
 
