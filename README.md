@@ -51,6 +51,6 @@ Olga Rojas | Scrum Developer
 
 ## 8.	Images Repository:
 
-[Class Diagram](https://drive.google.com/drive/folders/1En4qwYtzeySSVS4kBAjhchdF5qJ-bnJG?usp=sharing)
+[Installation images](https://drive.google.com/drive/folders/1En4qwYtzeySSVS4kBAjhchdF5qJ-bnJG?usp=sharing)
 
 
