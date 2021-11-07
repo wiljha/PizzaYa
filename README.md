@@ -1,22 +1,27 @@
 <h1 align="center">PizzaYa</h1>
 
 ## 1. Problem Statement:
-La cadena de pizza ‘PizzaYa’ distribuye gran cantidad domicilios y con el tiempo ha venido creciendo esta demanda ,el problema es que no se tiene un sistema que permita organizar y agilizar la asignación y distribución de sus domicilios lo que generado demoras y por consiguiente malestar de los clientes por este motivo.
+
+"PizzaYa" sales a high amount of products to its clients but over time it has been encreasing its demand, the problem is they do not have a system that let them to organize and speed attention up. This situation causes delays amd disconfort for their clients.
 
 ## 2.	Justification:
-Teniendo en cuenta los aspectos negativos mencionados anteriormente, se requiere un sistema que permita tener control del registro por orden de compra.
-El software que se desarrollará facilitará el registro y evitará demoras en los procesos de venta.
+
+Considering those the negatieve aspects mentioned above, it is required a system where they can control registration by purchase order.
+The software that we will develop, will make registration easier and it will avoid sales process delays.
 
 ## 3.	General objective:
-Desarrollar una aplicación web para el registro automático de solicitudes de compra de productos de comidas rápidas .
+
+To develop a web application in order to automatically register fast food purchase requirements
 
 ## 4.	Specific objectives:
 
 PizzaYa ofrece la solución ideal de administración de su negocio, permitiendo:
 
-- Gestionar de forma fácil y ordenada la selección del producto por parte del usuario
-- Crear un histórico del uso e ingresos económicos del negocio
-- Creación de roles para el manejo de la aplicación (Administrador y clientes)
+PizzaYa offer ideal solution for your business administration letting you: 
+
+- Managing in an easy and orderly way the product selection by the buyer persona.
+- Creating a sales history for the business
+- Creating roles for application management (Admin and clients)
 
 
 ## 5.	Proyect roles:
@@ -43,4 +48,9 @@ Olga Rojas | Scrum Developer
 [Class Diagram](https://lucid.app/lucidchart/19f73c5b-06b5-4052-b467-df27c3368df6/edit?page=0_0&invitationId=inv_fdd4cb63-45b4-4d3f-ab99-e2284976007d#)
 
 ![PizzaYa](https://github.com/wiljha/PizzaYa/blob/main/Classes.GIF)
+
+## 8.	Images Repository:
+
+[Class Diagram](https://drive.google.com/drive/folders/1En4qwYtzeySSVS4kBAjhchdF5qJ-bnJG?usp=sharing)
+
 
