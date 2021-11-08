@@ -44,7 +44,7 @@ Olga Rojas | Scrum Developer
 6.	Como cliente quiero tener una factura que me permita verificar mi pedido.
 
 
-## 7.	Classes diagram:
+## 7.	Class diagram:
 [Class Diagram](https://lucid.app/lucidchart/19f73c5b-06b5-4052-b467-df27c3368df6/edit?page=0_0&invitationId=inv_fdd4cb63-45b4-4d3f-ab99-e2284976007d#)
 
 ![PizzaYa](https://github.com/wiljha/PizzaYa/blob/main/Classes.GIF)
