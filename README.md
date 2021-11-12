@@ -11,7 +11,7 @@ The software that we will develop, will make registration easier and it will avo
 
 ## 3.	General objective:
 
-To develop a web application in order to automatically register fast food purchase requirements
+PizzaYa is a web app that let you to increment your sales and improve the purchase process, automating the fast food market.
 
 ## 4.	Specific objectives:
 
