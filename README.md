@@ -11,11 +11,9 @@ The software that we will develop, will make registration easier and it will avo
 
 ## 3.	General objective:
 
-PizzaYa is a web app that let you to increment your sales and improve the purchase process, automating the fast food market.
+PizzaYa is a web app that allows you to increase your sales and improve the purchase process, automating the fast food market.
 
 ## 4.	Specific objectives:
-
-PizzaYa ofrece la solución ideal de administración de su negocio, permitiendo:
 
 PizzaYa offer ideal solution for your business administration letting you: 
 
