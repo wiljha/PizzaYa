@@ -6,7 +6,7 @@
 
 ## 2.	Justification:
 
-Considering those the negatieve aspects mentioned above, it is required a system where they can control registration by purchase order.
+Considering those negatieve aspects mentioned above, it is required a system where the client can control registration by purchase order.
 The software that we will develop, will make registration easier and it will avoid sales process delays.
 
 ## 3.	General objective:
