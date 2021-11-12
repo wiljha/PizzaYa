@@ -2,7 +2,7 @@
 
 ## 1. Problem Statement:
 
-"PizzaYa" sales a high amount of products to its clients but over time it has been encreasing its demand, the problem is they do not have a system that let them to organize and speed attention up. This situation causes delays amd disconfort for their clients.
+"PizzaYa" sales a high amount of products to its clients but over time it has been encreasing its demand, the problem is they do not have a system that let them to organize and speed attention up. This situation causes delays and disconfort for their clients.
 
 ## 2.	Justification:
 
