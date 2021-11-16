@@ -1,0 +1,8 @@
+Chicos a continuación les comparto algunos comentarios con respecto al sprint 2:
+
+1. Analizando el diagrama de clases hay varias cosas que no son muy claras:
+    a. Si bien el usuario va a tener un rol, no me queda muy clara la relación al producto, cada rol tiene un producto o como es este proceso?
+    b. Bajo la estructura definida, cada factura solo tendría un producto al tiempo, si esto no es así, hace falta una tabla intermedia, algo así como "detalleFactura" donde va la relación de idFactura, IdProducto y cantidad, siendo que idFactura es como el encabezado de la factura y esta entidad nueva detalleFactura sería el listado de productos comprados.
+    c. No veo necesario para las necesidades que entiendo que se quieren resolver, el campo stock en productos, dado que no se llevará un control del inventario de los mismos, solo el proceso de facturación.
+
+2. 3 de los 5 integrantes de los grupos adjuntaron los pantallazos de la instalación.
