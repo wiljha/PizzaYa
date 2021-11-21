@@ -43,13 +43,13 @@ Olga Rojas | Scrum Developer
 
 
 ## 7.	Class diagram:
-[Class Diagram](https://lucid.app/lucidchart/19f73c5b-06b5-4052-b467-df27c3368df6/edit?page=0_0&invitationId=inv_fdd4cb63-45b4-4d3f-ab99-e2284976007d#)
+[Class Diagram](https://lucid.app/lucidchart/78bfd4f1-6f0f-4eb4-95c3-e75c686bb910/edit?viewport_loc=73%2C165%2C1480%2C616%2C0_0&invitationId=inv_13ef7ca6-c124-4255-83fd-b6f594e023fe)
 
 ![PizzaYa](https://github.com/wiljha/PizzaYa/blob/main/Classes.GIF)
 
 ## 8.	Images Repository:
 
-[Installation images](https://drive.google.com/drive/folders/1En4qwYtzeySSVS4kBAjhchdF5qJ-bnJG?usp=sharing)
+[Installation images](https://drive.google.com/file/d/1iJCotOE-wi2CL_xMNq-DG2wTkMj3CqUD/view?usp=sharing)
 
 ## 9.	Mockup:
 
