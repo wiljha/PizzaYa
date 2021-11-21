@@ -1,6 +1,6 @@
 <h1 align="center">PizzaYa</h1>
 
-## 1. Problem Statement:
+## 1. Problem Statement ():
 
 "PizzaYa" sales a high amount of products to its clients but over time it has been encreasing its demand, the problem is they do not have a system that let them to organize and speed attention up. This situation causes delays and disconfort for their clients.
 
