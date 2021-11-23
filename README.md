@@ -53,7 +53,7 @@ Olga Rojas | Scrum Developer
 
 ## 9.	Mockup:
 
-[Mockup PizzaYa](https://www.figma.com/file/NV6bBtS8dptk1YhlaNtXLB/Junte-UI-Components-kit-(Community)?node-id=13894%3A0)
+[Mockup PizzaYa](https://www.figma.com/file/NV6bBtS8dptk1YhlaNtXLB/Junte-UI-Components-kit-(Community)?node-id=16466%3A40713)
 
 
 
