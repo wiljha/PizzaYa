@@ -51,7 +51,7 @@ Olga Rojas | Scrum Developer
 
 [Installation images](https://drive.google.com/drive/folders/1En4qwYtzeySSVS4kBAjhchdF5qJ-bnJG?usp=sharing)
 
-[Sprint3 Evidences](https://docs.google.com/document/d/1zWmC6ZmDn97gO2friy0E7XdgI75okPYAfJX3fKpBLI8/edit?usp=sharing)
+[Sprint3 Evidences](https://github.com/wiljha/PizzaYa/blob/main/SPTRIN 3.pdf)
 
 ## 9.	Mockup:
 
