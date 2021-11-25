@@ -51,7 +51,7 @@ Olga Rojas | Scrum Developer
 
 [Installation images](https://drive.google.com/drive/folders/1En4qwYtzeySSVS4kBAjhchdF5qJ-bnJG?usp=sharing)
 
-[Sprint3 Evidences](https://github.com/wiljha/PizzaYa/blob/main/SPTRIN 3.pdf)
+[Sprint3 Evidences](https://github.com/wiljha/PizzaYa/blob/main/sprint3.pdf)
 
 ## 9.	Mockup:
 
