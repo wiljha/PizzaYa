@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreateProductComponent implements OnInit {
 
+  content: string = "hola a todos";
+  texto: string = "";
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  showText(){
+    this.content = this.texto
   }
 
 }
