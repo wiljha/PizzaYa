@@ -51,6 +51,8 @@ Olga Rojas | Scrum Developer
 
 [Installation images](https://drive.google.com/drive/folders/1En4qwYtzeySSVS4kBAjhchdF5qJ-bnJG?usp=sharing)
 
+[Sprint3 Evidences](https://github.com/wiljha/PizzaYa/blob/main/sprint3.pdf)
+
 ## 9.	Mockup:
 
 [Mockup PizzaYa](https://www.figma.com/file/NV6bBtS8dptk1YhlaNtXLB/Junte-UI-Components-kit-(Community)?node-id=16466%3A40713)
