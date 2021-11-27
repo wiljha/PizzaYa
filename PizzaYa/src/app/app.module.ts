@@ -15,13 +15,15 @@ import { CreateProductComponent } from './create-product/create-product.componen
 //componentes de Material
 import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
+import { ProductListComponent } from './product-list/product-list.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CreateProductComponent
+    CreateProductComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,

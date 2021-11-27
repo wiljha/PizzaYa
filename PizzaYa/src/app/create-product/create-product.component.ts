@@ -1,5 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { outputAst } from '@angular/compiler';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { NgForm } from '@angular/forms';
+import { from } from 'rxjs';
+//import { EventEmitter } from 'stream';
 import { Producto } from '../models/producto.model';
 
 
@@ -12,7 +15,8 @@ export class CreateProductComponent implements OnInit {
 
   content: string = "hola a todos";
   texto: string = "";
-  product: Producto [] = [];
+  @Output() createProducto = new EventEmitter<Producto>();
+
 
   constructor() { }
 
@@ -23,9 +27,12 @@ export class CreateProductComponent implements OnInit {
     this.content = this.texto
   }
 
-  addPost(form:NgForm){
-    console.log(form.value.title)
-    this.product.push(form.value)
+  addProducto(form:NgForm){
+    if(form.valid){
+      this.createProducto.emit(form.value)
+      form.resetForm();
+    }
+
   }
 
 }

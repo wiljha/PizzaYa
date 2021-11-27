@@ -1,7 +1,10 @@
 
 <main>
-  <p>Este sería el header</p>
+  <!-- <p>Este sería el header</p>
   <router-outlet>
 
-  </router-outlet>
+  </router-outlet> -->
+
+  <app-create-product (createProducto)="saveProducto($event)"></app-create-product>
+  <app-product-list [productos]="storedProducts"></app-product-list>
 </main>
