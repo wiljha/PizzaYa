@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
+import { Producto } from '../models/producto.model';
+
 
 @Component({
   selector: 'app-create-product',
@@ -9,6 +12,7 @@ export class CreateProductComponent implements OnInit {
 
   content: string = "hola a todos";
   texto: string = "";
+  product: Producto [] = [];
 
   constructor() { }
 
@@ -17,6 +21,11 @@ export class CreateProductComponent implements OnInit {
 
   showText(){
     this.content = this.texto
+  }
+
+  addPost(form:NgForm){
+    console.log(form.value.title)
+    this.product.push(form.value)
   }
 
 }

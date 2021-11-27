@@ -1,3 +1,37 @@
-<p>{{content}}</p>
+<!-- <p>{{content}}</p>
 <textarea [(ngModel)]="texto"></textarea>
-<button mat-raised-button color="primary" (click)="showText()">Primary</button>
+<button mat-raised-button color="primary" (click)="showText()">Primary</button> -->
+
+<form (submit)="addPost(productform)" #productform="ngForm">
+  <mat-form-field appearance="fill">
+    <mat-label>Mi pizza favorita</mat-label>
+    <input type="text" matInput placeholder="Ex. Pollo con champiñones" ngModel title="ngModel" name="title">
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Descripción</mat-label>
+    <textarea type="number" matInput placeholder="Ex. la mejor piza del mediterraneo" ngModel description="ngModel" name="description"> </textarea>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Precio</mat-label>
+    <input type="number" matInput placeholder="Ex. $ 20.000" ngModel price="ngModel" name="price">
+  </mat-form-field>
+  <button mat-raised-button color="primary" (click)="showText()">Guardar</button>
+</form>
+
+<p *ngIf="product.length === 0">
+  no se han agregado productos
+</p>
+
+
+<mat-card *ngFor="let item of product" >
+  <mat-card-title>{{item.title}}</mat-card-title>
+  <mat-card-subtitle>{{item.price}}</mat-card-subtitle>
+  <mat-card-content>
+    <p>{{item.description}}</p>
+
+  </mat-card-content>
+
+</mat-card>
+
