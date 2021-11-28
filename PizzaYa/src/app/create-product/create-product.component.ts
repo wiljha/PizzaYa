@@ -4,6 +4,7 @@ import { NgForm } from '@angular/forms';
 import { from } from 'rxjs';
 //import { EventEmitter } from 'stream';
 import { Producto } from '../models/producto.model';
+import { ProductService } from '../services/product.service';
 
 
 @Component({
@@ -13,12 +14,13 @@ import { Producto } from '../models/producto.model';
 })
 export class CreateProductComponent implements OnInit {
 
-  content: string = "hola a todos";
-  texto: string = "";
-  @Output() createProducto = new EventEmitter<Producto>();
+  content: string = 'hola a todos';
+  texto: string = '';
+  errorMessage = 'Este campo es requerido';
 
 
-  constructor() { }
+
+  constructor(public productService: ProductService) { }
 
   ngOnInit(): void {
   }
@@ -29,10 +31,14 @@ export class CreateProductComponent implements OnInit {
 
   addProducto(form:NgForm){
     if(form.valid){
-      this.createProducto.emit(form.value)
+      this.productService.addProduct(form.value);
       form.resetForm();
     }
 
+  }
+
+  getErrorMessage(){
+    return this.errorMessage;
   }
 
 }

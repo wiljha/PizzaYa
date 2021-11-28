@@ -6,6 +6,7 @@
   <mat-form-field appearance="fill">
     <mat-label>Mi pizza favorita</mat-label>
     <input type="text" matInput placeholder="Ex. Pollo con champiñones" ngModel title="ngModel" name="title" required>
+    <mat-error >{{getErrorMessage()}}</mat-error>
   </mat-form-field>
 
   <mat-form-field appearance="fill">
@@ -16,6 +17,7 @@
   <mat-form-field appearance="fill">
     <mat-label>Precio</mat-label>
     <input type="number" matInput placeholder="Ex. $ 20.000" ngModel price="ngModel" name="price" required>
+    <mat-error >{{getErrorMessage()}} y solo admite números</mat-error>
   </mat-form-field>
   <button mat-raised-button color="primary" (click)="showText()">Guardar</button>
 </form>
