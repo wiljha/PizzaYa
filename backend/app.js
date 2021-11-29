@@ -13,13 +13,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false}))
 
 //configuración de la conexión a la BASE DE DATOS
-////cadena de conexión, y un then que es cuando se ejecuta el connect que hace y un catch para capturar errores
+////cadena de conexión, y un then que es cuando se ejecuta el connect que hace ok y un catch para capturar errores
 mongoose.connect(
     "mongodb+srv://DBPizzaYa:XG0cfegZ0w5Z7jaf@cluster0.mxjuj.mongodb.net/PizzaYa?retryWrites=true&w=majority"
     ).then(() => {
         console.log("Estamos conectados a la DB...")
     }).catch(() => {
-        console.log("Hay un problema con la conexión!")
+        console.log("Hay un problema con la conexión!") 
     });
 
 
