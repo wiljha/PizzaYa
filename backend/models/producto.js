@@ -1,6 +1,8 @@
-const mongoose = require("mongoose");
+const connDB = require('../connectionDB/ConnDB'),
+	Schema = connDB.Schema;
+
 //modelo de Productos
-const productosSchema = mongoose.Schema({
+const productosSchema = Schema({
     nombre: { type: String, required: true },
     precio: { type: Number, required: true },
     stock: { type: Number, required: true },
@@ -8,4 +10,4 @@ const productosSchema = mongoose.Schema({
 });
 
 //exporte lo que tenemos de estructura de DB
-module.exports =mongoose.model("Producto", productosSchema);
+module.exports = connDB.model("Producto", productosSchema);
