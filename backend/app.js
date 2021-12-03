@@ -1,5 +1,8 @@
 //importación del módulo express bajo el alias express
 const express = require('express')
+
+var cors = require("cors");
+
 //genera una nueva instancia de express
 const app = express()
 //importación del mongoose
@@ -11,6 +14,7 @@ const postRoutes = require("./routes/posts")
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false}))
+app.use(cors());
 
 //configuración de la conexión a la BASE DE DATOS
 ////cadena de conexión, y un then que es cuando se ejecuta el connect que hace ok y un catch para capturar errores

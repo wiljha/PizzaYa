@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import {MatCardModule} from '@angular/material/card';
+//librería importada que nos ayudará a unir el back con el front, ya en el services se puede inyectar http client
+import { HttpClientModule } from '@angular/common/http';
 
 //componentes del aplicativo
 
@@ -36,6 +38,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatButtonModule,
     MatInputModule,
     FormsModule,
+    HttpClientModule,
     MatCardModule,
     MatToolbarModule,
   ],
