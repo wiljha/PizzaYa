@@ -48,7 +48,7 @@ exports.create = function (req, res) {
     newproducto.save(function(err) {
         if(!err) {
             console.log('Created');
-            res.json(newproducto);
+            res.status(201).json({message: "Post Creado"});
         } else {
             console.log('ERROR: ' + err);
             res.status(400).send(err);
