@@ -2,8 +2,11 @@ import { Injectable } from '@angular/core';
 import {Router} from '@angular/router'
 import { Subject } from 'rxjs';
 import { Producto } from '../models/producto.model';
-
+import { map } from 'rxjs/operators';
+import { environment } from 'src/environments/environment';
 import { HttpClient } from '@angular/common/http';
+
+//const url = environment.apiUrl + '/productos';
 
 @Injectable({
   providedIn: 'root'
@@ -18,11 +21,21 @@ export class ProductService {
   constructor(private router: Router, private http: HttpClient) { }
 
   addProduct(product:Producto){
-    //this.productos.push(product);
+    //mandar la peticion
+    console.log(product);
+    const productData = new FormData();
+    productData.append('title', product.title);
+    productData.append('description', product.description);
+    productData.append('price', product.price);
+    console.log(productData);
 
-    // Generar notificación  de actualización a los componentes suscritos al Subject
-    this.productUpdated.next([...this.productos]);
-    this.router.navigate(['/']);
+    this.http.post<{message: string}>(this.url, product).subscribe((response) => {
+      console.log(response);
+      this.productos.push(product);
+      // Generar notificación  de actualización a los componentes suscritos al Subject
+      this.productUpdated.next([...this.productos]);
+      this.router.navigate(['/']);
+    });
   }
 
   //OJO cada vez que abramos la ruta raiz "http://localhost:4200" en el archivo app-routing.module.ts renderiza a PostListComponent, cuando carga
@@ -37,9 +50,15 @@ export class ProductService {
       this.productos = response;
       this.productUpdated.next([...this.productos]);
 
+
     });
     //return [...this.productos]
   }
+
+
+
+
+
 
   getProductUpdateListener(){
     return this.productUpdated.asObservable();

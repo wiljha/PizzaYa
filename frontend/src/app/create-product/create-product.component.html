@@ -5,22 +5,30 @@
 <form (submit)="addProducto(productform)" #productform="ngForm">
   <mat-form-field appearance="fill">
     <mat-label>Mi pizza favorita</mat-label>
-    <input type="text" matInput placeholder="Ex. Pollo con champiñones" ngModel title="ngModel" name="title" required>
+    <input type="text" matInput placeholder="Ex. Pollo con champiñones" ngModel title="ngModel" name="nombre" required>
     <mat-error >{{getErrorMessage()}}</mat-error>
   </mat-form-field>
 
   <mat-form-field appearance="fill">
     <mat-label>Descripción</mat-label>
-    <textarea type="number" matInput placeholder="Ex. la mejor piza del mediterraneo" ngModel description="ngModel" name="description" > </textarea>
+    <textarea type="number" matInput placeholder="Ex. la mejor piza del mediterraneo" ngModel description="ngModel" name="descripcion" > </textarea>
   </mat-form-field>
 
   <mat-form-field appearance="fill">
     <mat-label>Precio</mat-label>
-    <input type="number" matInput placeholder="Ex. $ 20.000" ngModel price="ngModel" name="price" required>
+    <input type="number" matInput placeholder="Ex. $ 20.000" ngModel price="ngModel" name="precio" required>
     <mat-error >{{getErrorMessage()}} y solo admite números</mat-error>
   </mat-form-field>
-  <button mat-raised-button color="primary" (click)="showText()">Guardar</button>
+  <button mat-raised-button color="primary" (click)="showText()">Guardar Producto</button>
 </form>
+
+<!-- <mat-card *ngFor="let item of productos">
+  <mat-card-title>{{item.nombre}}</mat-card-title>
+  <mat-card-subtitle>{{item.precio}}</mat-card-subtitle>
+  <mat-card-content>
+    <p>{{item.descripcion}}</p>
+  </mat-card-content>
+</mat-card> -->
 
 
 
