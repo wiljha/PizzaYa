@@ -44,7 +44,29 @@ export class ProductService {
   getProductos() {
     //peticion en imsomnia como se hace en Angular. Retorna un Producto
     //envio de la peticion. subscribe
-    this.http.get<Producto[]>(this.url).subscribe((response) =>{
+    this.http
+    .get<any>(this.url)
+    .pipe(
+      map( (productosData) => {
+        return productosData.map(
+          (porducto: {
+            _id: string;
+            nombre: string;
+            descripcion: string;
+            precio: string;
+           }) =>{
+             return {
+               id: porducto._id,
+               nombre: porducto.nombre,
+               precio: porducto.precio,
+               descripcion: porducto.descripcion,
+
+             };
+           }
+         );
+        })
+      )
+      .subscribe((response) =>{
       //cuando responde el backend tenemos un console.log de la peticion que realizamos y obtenemos la respuesta en la consola de desarrollo del navegador
       console.log(response);
       this.productos = response;
@@ -59,11 +81,25 @@ export class ProductService {
   deleteProducto(id: string){
     this.http.delete(`${this.url}/${id}`).subscribe((Response) =>{
     console.log(Response);
-    const productosFiltered =  this.productos.filter(producto => producto._id != id);
+    const productosFiltered =  this.productos.filter(producto => producto.id != id);
     this.productos = productosFiltered;
     this.productUpdated.next([...this.productos]);
 
     });
+  }
+
+  updateProducto(producto: Producto, id: string){
+    this.http.put(`${this.url}/${id}`,producto).subscribe((Response)=>{
+      const newProducto = [...this.productos];
+      const oldProductIndex = newProducto.findIndex((producto) => producto.id === id);
+      newProducto[oldProductIndex] = producto;
+      this.productUpdated.next([...this.productos]);
+      this.router.navigate(['/']);
+    });
+  }
+
+  getProducto(id:string){
+    return this.http.get<{_id:string, nombre:string, descripcion:string, precio:string}>(`${this.url}/${id}`);
   }
 
   getProductUpdateListener(){
