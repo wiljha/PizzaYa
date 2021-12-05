@@ -15,7 +15,7 @@ export class ProductService {
   //variable que retornar
   url="http://localhost:3000/api/producto";
 
-  productos: Producto [] = [];
+  productos: Producto[] = [];
   productUpdated = new Subject<Producto[]>();
 
   constructor(private router: Router, private http: HttpClient) { }
@@ -24,9 +24,9 @@ export class ProductService {
     //mandar la peticion
     console.log(product);
     const productData = new FormData();
-    productData.append('title', product.title);
-    productData.append('description', product.description);
-    productData.append('price', product.price);
+    productData.append('nombre', product.nombre);
+    productData.append('descripcion', product.descripcion);
+    productData.append('precio', product.precio);
     console.log(productData);
 
     this.http.post<{message: string}>(this.url, product).subscribe((response) => {
@@ -51,14 +51,20 @@ export class ProductService {
       this.productUpdated.next([...this.productos]);
 
 
+
     });
     //return [...this.productos]
   }
 
+  deleteProducto(id: string){
+    this.http.delete(`${this.url}/${id}`).subscribe((Response) =>{
+    console.log(Response);
+    const productosFiltered =  this.productos.filter(producto => producto._id != id);
+    this.productos = productosFiltered;
+    this.productUpdated.next([...this.productos]);
 
-
-
-
+    });
+  }
 
   getProductUpdateListener(){
     return this.productUpdated.asObservable();

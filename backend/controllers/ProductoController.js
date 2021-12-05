@@ -41,8 +41,8 @@ exports.create = function (req, res) {
     var newproducto = new producto({
         nombre:    req.body.nombre,
         descripcion: req.body.descripcion,
-        precio: req.body.precio,
-        stock: req.body.stock
+        precio: req.body.precio
+        
     });
 
     newproducto.save(function(err) {

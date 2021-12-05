@@ -7,12 +7,17 @@
 </p>
 
 <mat-card *ngFor="let item of productos" >
-  <mat-card-title>{{item.title}}</mat-card-title>
-  <!-- <mat-card-subtitle>$ {{item.price}}</mat-card-subtitle>
+  <mat-card-title>{{item.nombre}}</mat-card-title>
+  <mat-card-subtitle>$ {{item.precio}}</mat-card-subtitle>
   <mat-card-content>
-    <p>{{item.description}}</p>
+    <p>{{item.descripcion}}</p>
 
-  </mat-card-content> -->
+  </mat-card-content>
+
+  <mat-card-actions align="end">
+    <button mat-button color="warn" (click)="onDelete(item._id)">Eliminar</button>
+
+  </mat-card-actions>
 
 </mat-card>
 

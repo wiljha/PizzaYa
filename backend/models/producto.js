@@ -4,9 +4,8 @@ const connDB = require('../connectionDB/ConnDB'),
 //modelo de Productos
 const productosSchema = Schema({
     nombre: { type: String, required: true },
-    precio: { type: Number, required: true },
-    stock: { type: Number },
     descripcion: { type: String },
+    precio: { type: Number, required: true },
 });
 
 //exporte lo que tenemos de estructura de DB

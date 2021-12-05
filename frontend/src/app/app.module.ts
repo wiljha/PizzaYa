@@ -20,6 +20,8 @@ import {MatInputModule} from '@angular/material/input';
 import { ProductListComponent } from './product-list/product-list.component';
 import { HeaderComponent } from './header/header.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatDialogModule} from '@angular/material/dialog';
+
 
 
 
@@ -41,6 +43,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     HttpClientModule,
     MatCardModule,
     MatToolbarModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -39,9 +39,9 @@ exports.getProducto = (req, res) => {
   //incluir en la DB
   const productoAdd = new Producto({
     nombre: req.body.nombre,
-    precio: req.body.precio,
-    stock: req.body.stock,
     descripcion: req.body.descripcion,
+    precio: req.body.precio,
+     
   });
 
   productoAdd.save().then((createdProducto) => {
