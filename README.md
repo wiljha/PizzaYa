@@ -64,6 +64,7 @@ Olga Rojas | Scrum Developer
 2.	Header
 3.	Lista de productos
 4.	Login
+5.	Signup
 
 
 
