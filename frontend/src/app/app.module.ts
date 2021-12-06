@@ -21,6 +21,8 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { HeaderComponent } from './header/header.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatDialogModule} from '@angular/material/dialog';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 
 
@@ -31,7 +33,9 @@ import {MatDialogModule} from '@angular/material/dialog';
     AppComponent,
     CreateProductComponent,
     ProductListComponent,
-    HeaderComponent
+    HeaderComponent,
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
