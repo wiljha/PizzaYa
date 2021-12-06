@@ -58,6 +58,14 @@ Olga Rojas | Scrum Developer
 [Mockup PizzaYa](https://www.figma.com/file/NV6bBtS8dptk1YhlaNtXLB/Junte-UI-Components-kit-(Community)?node-id=16466%3A40713)
 
 
+## 10.	Componentes del Frontend:
+
+1.  Crear producto
+2.	Header
+3.	Lista de productos
+4.	Login
+5.	Signup
+
 
 
 
